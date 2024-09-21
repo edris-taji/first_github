@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+<style>
+    .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery img {
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .gallery img {
+    width: 45%;
+  }
+
+
+}
+
+body{
+  background-color: red !important;
+  background-color: green;
+}
+</style>
+
+</head>
+<body style="background-color: blue;">
+    
+    <div class="gallery">
+        <img src="03-big-blog.jpg" alt="Image 1">
+        <img src="01-portfolio.jpg" alt="Image 2">
+        <img src="03-big-blog.jpg" alt="Image 1">
+        <img src="01-portfolio.jpg" alt="Image 2">
+        <img src="03-big-blog.jpg" alt="Image 1">
+        <img src="01-portfolio.jpg" alt="Image 2">
+        <img src="03-big-blog.jpg" alt="Image 1">
+        <img src="01-portfolio.jpg" alt="Image 2">
+        <img src="03-big-blog.jpg" alt="Image 1">
+        <!-- ... 7 more images ... -->
+      </div>
+      
+
+</body>
+</html>

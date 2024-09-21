@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mynavbar{
+            background-color: black;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            
+        }
+
+        .mynavbar a{
+            color: white;
+            padding: 20px;
+            text-decoration: none;
+        }
+
+        @media(max-width:600px){
+            .mynavbar {
+            flex-direction: column;
+            align-items: center;
+        }
+
+          body{
+            background-color: rgb(210, 59, 36);
+          }
+          h2{
+            display: none;
+          }
+        }
+
+    </style>
+</head>
+<body>
+    
+    <nav class="mynavbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contants</a>
+      <a href="#">More</a>
+      
+    </nav>
+   
+    <h2>Hello</h2>
+</body>
+</html>

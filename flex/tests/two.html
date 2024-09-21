@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav-container {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+.nav-container a {
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <nav class="nav-container">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+      </nav>
+      
+</body>
+</html>

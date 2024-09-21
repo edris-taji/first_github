@@ -1,0 +1,42 @@
+
+.comon-c{
+    border: 1px solid black;
+    margin: 10px;
+}
+.main-d-1{   
+    height: 100px;
+}
+.main-d-2{
+    display: flex;
+    flex-direction:row;
+    
+}
+
+.main-d-3{
+    height: 100px;
+}
+
+.d-m-1{
+    background-color: yellow;
+    width: 50%;
+}
+
+.d-m-2{
+    background-color: rgb(61, 15, 231);
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+}
+
+.last-d{
+    font-size: 2rem;
+    background-color:white;
+    width: 100px;
+    height: 80px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
